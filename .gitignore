@@ -1,0 +1,17 @@
+# build outputs
+out
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+/.idea/
+
+# Local env files
+.env
+.env.*
+!.env.example
