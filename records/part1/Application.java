@@ -1,4 +1,4 @@
-package records;
+package records.part1;
 
 public class Application {
 
@@ -13,16 +13,16 @@ public class Application {
         // getters
         // equals
         // hashcode
-        var location1 = new Location(35.6764, 139.65, "Tokyo");
-        var location2 = new Location(35.6764, 139.65, "Tokyo");
-        var location3 = new Location(35.0116, 135.7681, "Kyoto");
-        System.out.println(location1);
-        System.out.println(location1.latitude());
-        System.out.println(location1.city());
+        var tokyo1 = new Location(35.6764, 139.65, "Tokyo");
+        var tokyo2 = new Location(35.6764, 139.65, "Tokyo");
+        var kyoto = new Location(35.0116, 135.7681, "Kyoto");
+        System.out.println(tokyo1);
+        System.out.println(tokyo1.latitude());
+        System.out.println(tokyo1.city());
 
-        System.out.println(location1.equals(location2)); // true
-        System.out.println(location1.equals(location3)); // false
-        System.out.println(location1.hashCode());
+        System.out.println(tokyo1.equals(tokyo2)); // true
+        System.out.println(tokyo1.equals(kyoto)); // false
+        System.out.println(tokyo1.hashCode());
 
 
         // implement interface

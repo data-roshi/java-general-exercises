@@ -1,4 +1,4 @@
-package records;
+package records.part1;
 
 // stupid name, but wanted to have a record and a class for location in this example code...
 public class LocationClass {
